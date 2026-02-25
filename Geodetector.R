@@ -34,7 +34,7 @@ infile <- "data/input/geodetector_input.xlsx"
 
 id_country <- "country"
 y_var <- "T_00_10"
-x_vars <- c("dem", "slope", "gdp10", "pop10", "pre10", "tem10", "urban10", "npp10", "PArate")
+x_vars <- c("dem", "slope", "gdp10", "pop10", "pre10", "tem10", "urban10", "npp10")
 
 # Discretization settings
 min_n_country <- 30      # minimum number of observations per country
@@ -46,7 +46,7 @@ k_max <- 7
 log_vars <- c("gdp10", "pop10")
 
 # Zero-inflated variables: 0 as a separate class, positive values discretized separately
-zero_inflated_vars <- c("PArate", "urban10")
+zero_inflated_vars <- c( "urban10")
 
 # Minimum sample size required for interaction detection
 min_n_interaction <- 50
@@ -398,3 +398,4 @@ write.xlsx(
 )
 
 message("Done. Output saved to: ", normalizePath(outfile))
+
