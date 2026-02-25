@@ -36,7 +36,6 @@ In the current script, the required columns are:
 * `tem10`
 * `urban10`
 * `npp10`
-* `PArate`
 
 All explanatory variables should be numeric or convertible to numeric.
 
