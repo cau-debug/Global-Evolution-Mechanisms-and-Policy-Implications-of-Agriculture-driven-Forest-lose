@@ -39,7 +39,7 @@ infile <- "data/input/geodetector_input.xlsx"
 
 id_country <- "country"
 y_var <- "T_10_20"
-x_vars <- c("dem", "slope", "gdp10", "pop10", "pre10", "tem10", "urban10", "npp10", "PArate")
+x_vars <- c("dem", "slope", "gdp10", "pop10", "pre10", "tem10", "urban10", "npp10")
 
 min_n_country <- 30
 nsim <- 999        # number of permutations
@@ -208,3 +208,4 @@ write.xlsx(
 )
 
 message("Done. Output saved to: ", normalizePath(outfile))
+
