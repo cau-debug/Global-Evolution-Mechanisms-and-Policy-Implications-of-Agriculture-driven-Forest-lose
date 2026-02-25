@@ -1,4 +1,3 @@
-可以直接补上一个简洁的 README 说明，和这份脚本配套上传。
 
 ## README overview
 
